@@ -1,0 +1,38 @@
+TECHNOLOGIES REQUIRED :
+_____________________________________________________________________________________________________________________________________________________________________________
+Backend :
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Java 11
+	Spring Boot 2.2
+	Spring Security
+	JWT Authentication
+	Spring Data JPA
+	Hibernate
+	PostgreSQL
+	Maven
+_____________________________________________________________________________________________________________________________________________________________________________
+Frontend :
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Angular 7
+	Angular CLI
+	Bootstrap
+_____________________________________________________________________________________________________________________________________________________________________________
+HOW TO RUN THE APPLICATION :
+_____________________________________________________________________________________________________________________________________________________________________________
+We have to start backend before starting the frontend of the application .
+Starting backend :
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	1. Install PostgreSQL
+	2. Configure the datasource in the application.yml
+	3. Now change to backend directory using "cd backend" command .
+	4. Run "mvn install" in the terminal.
+	5. Now to run the application run "mvn spring-boot:run" in the terminal .
+	6. The spring boot application will automatically store the data into database using the import.sql file and the backend will be running on localhost on port 8080.
+____________________________________________________________________________________________________________________________________________________________________________
+Starting the frontend :
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	1. Install nodeJS and npm
+	2. Now change to frontend directory using "cd frontend" command .
+	3. Run "npm install" in the terminal.
+	4. Run "npm start" in the terminal.
+	5. Now, the frontend of the application will run on the localhost on port 4200.
